@@ -1,6 +1,6 @@
 # Community Hub
 
-A responsive, multi-page HTML/CSS website that brings together local resources, events, businesses and community news.
+A **Beginner-Level** responsive, multi-page HTML/CSS website that brings together local resources, events, businesses and community news.
 
 > **Note:** This website is optimized for display when your browser zoom level is set to **100%** (e.g., in Google Chrome). The layout and sizing of elements such as divs have been tailored for this scale to ensure the best user experience.
 
