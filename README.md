@@ -30,7 +30,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Modern sans-serif fonts in black for headings and body text.  
   - Rounded buttons with smooth CSS transitions on hover.
 
-![Alt text](./Screenshots/main2.png)
+![Alt text](./Screenshots/main.JPG)
 
 - **Key HTML/CSS Features:**  
 
@@ -38,7 +38,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
     - `float: left; position: relative; width: 900px; height: 60px;`  
     - Children `.navv` links (uppercase, `font-size: 25px`) and a sliding `.animation` bar with `transition: all 0.4s ease-in-out;`.  
 
-![Alt text](./Screenshots/main.JPG)
+![Alt text](./Screenshots/main2.png)
 
 ![Alt text](./Screenshots/main3.JPG)
 
