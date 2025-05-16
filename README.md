@@ -30,16 +30,16 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Modern sans-serif fonts in black for headings and body text.  
   - Rounded buttons with smooth CSS transitions on hover.
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\main.JPG)
+![Alt text](./Screenshots/main.JPG)
 
 - **Key HTML/CSS Features:**  
   - **Navigation (`nav`):**  
     - `float: left; position: relative; width: 900px; height: 60px;`  
     - Children `.navv` links (uppercase, `font-size: 25px`) and a sliding `.animation` bar with `transition: all 0.4s ease-in-out;`.  
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\main2.JPG)
+![Alt text](./Screenshots/main2.JPG)
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\main3.JPG)
+![Alt text](./Screenshots/main3.JPG)
 
   - **Hero Cards (`.com_hub`, `.com_new`, etc.):**  
     - Fixed dimensions, `border-radius: 20px`, `box-shadow` for depth.  
@@ -55,7 +55,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
 **File:** `com_hub.html`  
 **Stylesheet:** `main.css`  
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\welcome.JPG)
+![Alt text](./Screenshots/welcome.JPG)
 
 - **Purpose:**  
   Introduces visitors to the Community Hub platform, showcases featured spots and recent announcements, and provides the primary navigation menu linking to all other pages.
@@ -87,7 +87,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Bold sans-serif headings for emphasis.  
   - Animated accordion sections and carousel slider.
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\news.JPG)
+![Alt text](./Screenshots/news.JPG)
 
 - **Key HTML/CSS Features:**  
   - **Global Reset:**  
@@ -114,7 +114,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Hover on event cards reveals full details without scrolling.  
   - Uppercase navigation links in white (`text-transform: uppercase; color: white;`).
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\events.JPG)
+![Alt text](./Screenshots/events.JPG)
 
 
 - **Key HTML/CSS Features:**  
@@ -144,7 +144,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Bold section headers, alternating background shades for readability.  
   - Responsive grid or list layout.
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\directory.JPG)
+![Alt text](./Screenshots/directory.JPG)
 
 
 - **Key HTML/CSS Features:**  
@@ -169,7 +169,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Tabbed interface: `.tabs` container with `.tab` items.  
   - Smooth drop-down menus on hover.
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\resource.JPG)
+![Alt text](./Screenshots/resource.JPG)
 
 
 - **Key HTML/CSS Features:**  
@@ -194,7 +194,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Form fields for name, email, message with CSS validation (`:invalid` states).  
   - Embedded `<iframe>` for Google Maps, positioned alongside form inputs.
 
-![Alt text](D:\Github-Projects\community-hub\Screenshots\contact.JPG)
+![Alt text](./Screenshots/contact.JPG)
 
 
 - **Key HTML/CSS Features:**  
