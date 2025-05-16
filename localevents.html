@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Events</title>
+
+    <link rel="stylesheet" href="localevents.css">
+</head>
+<body>
+    <div style="background-color: #8d867b; padding: 20px;">
+        
+        <div style="width: 1518px; height: 88px; background-color: #8d867b;">
+            
+            <img src="4.png" style="float:left; height: 88px; margin-left: 2%; margin-top: 0%; width: 300px" alt="Community hub">
+            <nav>
+                <a class="navv" href="com_hub.html">welcome</a>
+                <a class="navv" href="com_new.html">news</a>
+                <a class="navv" href="localevents.html">events</a>
+                <a class="navv" href="directory.html">business</a>
+                <a class="navv" href="resource.html">resource</a>
+                <a class="navv" href="contact.html">contact</a>
+                <div class="animation start-welcome"></div>
+            </nav>
+          </div>
+
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+            
+            <div class="event-card">
+                <h3 style="margin-top: 0;">Charity Run</h3>
+                <p><strong>Date:</strong> December 9, 2024</p>
+                <p><strong>Location:</strong> Community Park</p>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> Join us for an invigorating charity run aimed at raising funds 
+                        for local education initiatives. The event will feature a 5k, 10k, and kids’ fun run, making it 
+                        suitable for participants of all ages and skill levels. Enjoy a morning of exercise, live music, 
+                        and a post-run celebration with food trucks and community booths. All proceeds from the event 
+                        will go toward providing school supplies, scholarships, and extracurricular programs for 
+                        underprivileged students in our area.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="event-card">
+                <h3 style="margin-top: 0;">Art Festival</h3>
+                <p><strong>Date:</strong> December 12, 2024</p>
+                <p><strong>Location:</strong> Downtown Art Center</p>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> Experience a vibrant celebration of creativity at the Downtown Art Center. 
+                        This year’s art festival features an array of local artists showcasing their work in various media, including 
+                        painting, sculpture, photography, and mixed media. Interactive workshops, live demonstrations, and a special 
+                        kids’ art zone ensure there’s something for everyone. Don’t miss the evening gala, where you can meet the 
+                        artists and enjoy live performances while supporting the arts in our community. Food vendors and a cozy 
+                        lounge area make it the perfect day out for art enthusiasts and families alike.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="event-card">
+                <h3 style="margin-top: 0;">Food Festival</h3>
+                <p><strong>Date:</strong> December 15, 2024</p>
+                <p><strong>Location:</strong> Riverside Pavilion</p>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> Savor culinary delights from around the world at our annual Food Festival. 
+                        With over 30 food stalls featuring cuisines from local chefs and international vendors, this event is a 
+                        paradise for food lovers. Enjoy live cooking demonstrations, contests, and musical performances while 
+                        indulging in mouthwatering dishes. A dedicated kids’ play area ensures fun for the whole family!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="event-card">
+                <h3 style="margin-top: 0;">Winter Wonderland</h3>
+                <p><strong>Date:</strong> December 20, 2024</p>
+                <p><strong>Location:</strong> City Square</p>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> Celebrate the holiday season at our Winter Wonderland event. Enjoy ice skating, 
+                        a Christmas market, and live performances from local choirs and bands. Don’t miss the tree lighting ceremony 
+                        and the special visit from Santa Claus. Warm up with hot cocoa and festive treats while creating memories 
+                        with your loved ones in a magical winter setting.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<style>
+        body {
+            background-color: #8d867b;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+        div.event-card {
+            background-color: #c2bcb2;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        div.event-card:hover {
+            transform: scale(1.02);
+        }
+        div.description {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+        div.event-card:hover .description {
+            max-height: 300px; 
+        }
+    </style>
+</body>
+</html>

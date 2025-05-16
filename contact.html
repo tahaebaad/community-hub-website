@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Feedback</title>
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+    
+    <div style="width: 1536px; height: 88px; background-color: #8d867b;">
+            
+        <img src="7.png" style="float:left; height: 88px; margin-left: 2%; margin-top: 0%; width: 240px" alt="Community hub">
+        <nav>
+            <a class="navv" href="com_hub.html">welcome</a>
+            <a class="navv" href="com_new.html">news</a>
+            <a class="navv" href="localevents.html">events</a>
+            <a class="navv" href="directory.html">business</a>
+            <a class="navv" href="resource.html">resource</a>
+            <a class="navv" href="contact.html">contact</a>
+            <div class="animation start-welcome"></div>
+        </nav>
+
+    </div>
+
+    <main style="padding: 2rem; display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
+
+        <section style="flex: 1 1 45%; min-width: 300px;">
+            <h2 style="margin-bottom: 1rem; text-align: center;">Submit Your Feedback</h2>
+            <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1rem;">
+                <label for="name" style="margin-bottom: 0.2rem;">Name:</label>
+                <input type="text" id="name" name="name" required style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; width: 100%;">
+                <label for="email" style="margin-bottom: 0.2rem;">Email:</label>
+                <input type="email" id="email" name="email" required style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; width: 100%;">
+                <label for="message" style="margin-bottom: 0.2rem;">Message:</label>
+                <textarea id="message" name="message" rows="5" required style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; width: 100%;"></textarea>
+                <button type="submit" style="background-color: #8d867b; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+            </form>
+        </section>
+
+        <section style="flex: 1 1 45%; min-width: 300px;">
+            <h2 style="margin-top: 0; text-align: center;">Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.827448271088!2d73.01488061520994!3d33.651961980712526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df96513d3a6595%3A0x3617485baaca228a!2sFAST-NUCES%20Islamabad!5e0!3m2!1sen!2s!4v1638773433387!5m2!1sen!2s" 
+                width="100%" 
+                height="400" 
+                style="border:0; border-radius: 4px;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>

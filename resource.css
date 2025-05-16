@@ -1,0 +1,77 @@
+nav{
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 900px;
+    height:60px;
+    font-size: 0;
+}
+nav .navv{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav .animation{
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: #0d0e28;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out;
+}
+nav .navv:nth-child(1):hover~.animation{
+    width: 70px;
+    left: 43px;
+}
+.navv:nth-child(1){
+    margin-left: 20px;
+    width: 70px;
+}
+nav .navv:nth-child(2):hover~.animation{
+    width: 70px;
+    left: 181px;
+}
+.navv:nth-child(2){
+    width: 70px;
+    margin-left: 90px;
+}
+nav .navv:nth-child(3):hover~.animation{
+    width: 70px;
+    left: 305px;
+}
+.navv:nth-child(3){
+    width: 70px;
+    margin-left: 40px;
+}
+nav .navv:nth-child(4):hover~.animation{
+    width: 70px;
+    left: 448px;
+}
+.navv:nth-child(4){
+    width: 70px;
+    margin-left: 60px;
+}
+nav .navv:nth-child(5):hover~.animation{
+    width: 70px;
+    left: 615px;
+}
+.navv:nth-child(5){
+    width: 70px;
+    margin-left: 90px;
+}
+nav .navv:nth-child(6):hover~.animation{
+    width: 70px;
+    left: 780px;
+}
+.navv:nth-child(6){
+    width: 70px;
+    margin-left: 110px;
+}

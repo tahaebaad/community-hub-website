@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8d867b;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 1rem;
+            overflow: visible;
+        }
+
+        .dropbtn {
+            background-color: #c2bcb2;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover {
+            background-color: #c2bcb2;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            border: 1px solid black;
+            z-index: 1; 
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
+<link rel="stylesheet" href="resource.css">
+
+</head>
+<body style="background-color: #8d867b;">
+
+    <div style="width: 1518px; height: 88px; background-color: #8d867b;">
+            
+        <img src="6.png" style="float:left; height: 88px; margin-left: 4%; margin-top: 0%; width: 310px" alt="Community hub">
+        <nav>
+            <a class="navv" href="com_hub.html">welcome</a>
+            <a class="navv" href="com_new.html">news</a>
+            <a class="navv" href="localevents.html">events</a>
+            <a class="navv" href="directory.html">business</a>
+            <a class="navv" href="resource.html">resource</a>
+            <a class="navv" href="contact.html">contact</a>
+            <div class="animation start-welcome"></div>
+        </nav>
+
+    </div>
+
+    <main>
+
+        <div class="dropdown">
+            <button class="dropbtn" style="color: black;">Past Papers</button>
+            <div class="dropdown-content">
+                <a href="https://www.studocu.com" target="_blank">Computer Science - Past Papers</a>
+                <a href="https://www.studocu.com" target="_blank">Mathematics - Past Papers</a>
+                <a href="https://www.studocu.com" target="_blank">Physics - Past Papers</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" style="color: black;">Study Notes</button>
+            <div class="dropdown-content">
+                <a href="https://www.studocu.com" target="_blank">Calculus Notes</a>
+                <a href="https://www.studocu.com" target="_blank">Applied Physics Notes</a>
+                <a href="https://www.w3schools.com" target="_blank">Programming Fundamentals Notes</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" style="color: black;">Additional Resources</button>
+            <div class="dropdown-content">
+                <a href="http://isb.nu.edu.pk" target="_blank">Scholarships and Financial Aid</a>
+                <a href="http://isb.nu.edu.pk" target="_blank">Career Guidance</a>
+                <a href="http://isb.nu.edu.pk" target="_blank">Online Courses</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

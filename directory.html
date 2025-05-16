@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Businesses</title>
+
+    <link rel="stylesheet" href="directory.css">
+</head>
+<body>
+    <div style="background-color: #8d867b; padding: 20px;">
+        
+        <div style="width: 1518px; height: 88px; background-color: #8d867b;">
+            
+            <img src="5.png" style="float:left; height: 88px; margin-left: 2%; margin-top: 0%; width: 300px" alt="Community hub">
+            <nav>
+                <a class="navv" href="com_hub.html">welcome</a>
+                <a class="navv" href="com_new.html">news</a>
+                <a class="navv" href="localevents.html">events</a>
+                <a class="navv" href="directory.html">business</a>
+                <a class="navv" href="resource.html">resource</a>
+                <a class="navv" href="contact.html">contact</a>
+                <div class="animation start-welcome"></div>
+            </nav>
+          </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+            
+            <div class="business-card">
+                <img src="bakery.png" alt="Decent Bakery Logo" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3 style="margin-top: 0;">Decent Bakery</h3>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> Discover a delightful range of freshly baked goods and artisan breads 
+                        crafted daily using the finest ingredients. Whether you’re in the mood for a classic loaf, a decadent 
+                        pastry, or a custom cake for a special occasion, Decent Bakery ensures quality and taste with every bite.
+                    </p>
+                </div>
+                <p><strong>Contact:</strong> +92-123-1234567</p>
+            </div>
+            
+            <div class="business-card">
+                <img src="Tech.png" alt="AI Tech Solutions Logo" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3 style="margin-top: 0;">AI Tech Solutions</h3>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> A trusted partner for businesses seeking IT support and custom software 
+                        solutions. AI Tech Solutions specializes in innovative applications, cloud-based services, and AI-powered 
+                        tools designed to enhance productivity and streamline operations for small and medium-sized enterprises.
+                    </p>
+                </div>
+                <p><strong>Contact:</strong> +92-222-1212121</p>
+            </div>
+            
+            <div class="business-card">
+                <img src="Organic.png" alt="Green Grocers Logo" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3 style="margin-top: 0;">Green Grocers</h3>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> Green Grocers offers a wide variety of fresh fruits and vegetables sourced 
+                        directly from local farms. Enjoy organic produce and sustainable shopping in the heart of the city.
+                    </p>
+                </div>
+                <p><strong>Contact:</strong> +92-333-4567890</p>
+            </div>
+            
+            <div class="business-card">
+                <img src="Fitness.png" alt="Fitness Pro Gym Logo" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3 style="margin-top: 0;">Fitness Pro Gym</h3>
+                <div class="description">
+                    <p>
+                        <strong>Description:</strong> A state-of-the-art fitness facility offering personal training, group classes, 
+                        and modern equipment to help you achieve your fitness goals in a supportive environment.
+                    </p>
+                </div>
+                <p><strong>Contact:</strong> +92-444-9876543</p>
+            </div>
+        </div>
+    </div>
+	<style>
+        body {
+            background-color: #8d867b;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+        div.business-card {
+            background-color: #c2bcb2;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        div.business-card:hover {
+            transform: scale(1.02);
+        }
+        div.description {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+        div.business-card:hover .description {
+            max-height: 200px; 
+        }
+        img {
+            display: block;
+        }
+    </style>
+</body>
+</html>
