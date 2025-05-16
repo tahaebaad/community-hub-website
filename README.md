@@ -30,14 +30,15 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Modern sans-serif fonts in black for headings and body text.  
   - Rounded buttons with smooth CSS transitions on hover.
 
-![Alt text](./Screenshots/main.JPG)
+![Alt text](./Screenshots/main2.JPG)
 
 - **Key HTML/CSS Features:**  
+
   - **Navigation (`nav`):**  
     - `float: left; position: relative; width: 900px; height: 60px;`  
     - Children `.navv` links (uppercase, `font-size: 25px`) and a sliding `.animation` bar with `transition: all 0.4s ease-in-out;`.  
 
-![Alt text](./Screenshots/main2.JPG)
+![Alt text](./Screenshots/main.JPG)
 
 ![Alt text](./Screenshots/main3.JPG)
 
@@ -90,6 +91,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
 ![Alt text](./Screenshots/news.JPG)
 
 - **Key HTML/CSS Features:**  
+
   - **Global Reset:**  
     ```css
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -118,6 +120,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
 
 
 - **Key HTML/CSS Features:**  
+
   - **Hover Animations:**  
     ```css
     .event-card:hover .details {
@@ -148,6 +151,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
 
 
 - **Key HTML/CSS Features:**  
+
   - **Category Titles:**  
     ```css
     .category-header { font-weight: bold; background-color: #ac9f8b; padding: .5rem; }
@@ -173,6 +177,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
 
 
 - **Key HTML/CSS Features:**  
+
   - **Tab Navigation:**  
     ```css
     .tabs .tab:hover .dropdown { display: block; transition: all 0.3s ease-in-out; }
@@ -198,6 +203,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
 
 
 - **Key HTML/CSS Features:**  
+
   - **Form Validation Styles:**  
     ```css
     input:invalid { border-color: red; }
