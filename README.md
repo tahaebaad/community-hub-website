@@ -30,7 +30,7 @@ A responsive, multi-page HTML/CSS website that brings together local resources, 
   - Modern sans-serif fonts in black for headings and body text.  
   - Rounded buttons with smooth CSS transitions on hover.
 
-![Alt text](./Screenshots/main2.JPG)
+![Alt text](./Screenshots/main2.png)
 
 - **Key HTML/CSS Features:**  
 
